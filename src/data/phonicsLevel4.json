@@ -1,0 +1,119 @@
+{
+  "id": 4,
+  "title": "Level 4",
+  "sounds": ["ai", "j", "oa", "ie", "ee", "or"],
+  "words": [
+    {
+      "text": "rain",
+      "segments": ["r", "ai", "n"]
+    },
+    {
+      "text": "pain",
+      "segments": ["p", "ai", "n"]
+    },
+    {
+      "text": "tail",
+      "segments": ["t", "ai", "l"]
+    },
+    {
+      "text": "mail",
+      "segments": ["m", "ai", "l"]
+    },
+    {
+      "text": "sail",
+      "segments": ["s", "ai", "l"]
+    },
+    {
+      "text": "nail",
+      "segments": ["n", "ai", "l"]
+    },
+    {
+      "text": "jam",
+      "segments": ["j", "a", "m"]
+    },
+    {
+      "text": "jet",
+      "segments": ["j", "e", "t"]
+    },
+    {
+      "text": "jog",
+      "segments": ["j", "o", "g"]
+    },
+    {
+      "text": "job",
+      "segments": ["j", "o", "b"]
+    },
+    {
+      "text": "jig",
+      "segments": ["j", "i", "g"]
+    },
+    {
+      "text": "jug",
+      "segments": ["j", "u", "g"]
+    },
+    {
+      "text": "boat",
+      "segments": ["b", "oa", "t"]
+    },
+    {
+      "text": "goat",
+      "segments": ["g", "oa", "t"]
+    },
+    {
+      "text": "road",
+      "segments": ["r", "oa", "d"]
+    },
+    {
+      "text": "toad",
+      "segments": ["t", "oa", "d"]
+    },
+    {
+      "text": "load",
+      "segments": ["l", "oa", "d"]
+    },
+    {
+      "text": "soap",
+      "segments": ["s", "oa", "p"]
+    },
+    {
+      "text": "pie",
+      "segments": ["p", "ie"]
+    },
+    {
+      "text": "tie",
+      "segments": ["t", "ie"]
+    },
+    {
+      "text": "lie",
+      "segments": ["l", "ie"]
+    },
+    {
+      "text": "die",
+      "segments": ["d", "ie"]
+    },
+    {
+      "text": "see",
+      "segments": ["s", "ee"]
+    },
+    {
+      "text": "bee",
+      "segments": ["b", "ee"]
+    },
+    {
+      "text": "feet",
+      "segments": ["f", "ee", "t"]
+    },
+    {
+      "text": "seed",
+      "segments": ["s", "ee", "d"]
+    },
+    {
+      "text": "feed",
+      "segments": ["f", "ee", "d"]
+    },
+    {
+      "text": "born",
+      "segments": ["b", "or", "n"]
+    }
+  ]
+}

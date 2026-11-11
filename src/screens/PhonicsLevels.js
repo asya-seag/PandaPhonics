@@ -1,109 +1,106 @@
-import React from "react";
-import { View, Image, Pressable, Text, StyleSheet, ScrollView } from "react-native";
-
+import { View, Image, Pressable, StyleSheet, ScrollView, } from "react-native";
 import LongPhonicsLevelButton from "../components/LongPhonicsLevelButton";
+import styles from "./PhonicsLevels.styles.js";
 
-export default function PhonicsLevels({ navigation }) {
-    return (
-        <View style={styles.container}>
+export default function PhonicsLevels({ navigation, route }) {
+  
 
-            {/* Leaf background */}
-            <View style={styles.backgroundLayer}>
-                <Image
-                    source={require("../../assets/leafOverlay.jpg")}
-                    style={styles.backgroundImage}
-                    resizeMode="cover"
-                />
-            </View>
+  const userId = route.params?.userId;
 
-            {/* Panda logo */}
-            <Image
-                source={require("../../assets/logoName.png")}
-                style={styles.logo}
-                resizeMode="contain"
-            />
+  const openLevel = (levelId) => {
+    navigation.navigate("PhonicsPractice", {
+      levelId,
+    });
+  };
 
-            {/* Home button */}
-            <Pressable
-                style={styles.homeButton}
-                onPress={() => navigation.navigate("HomeLanding")}
-            >
-                <Text style={styles.homeIcon}>🏠</Text>
-            </Pressable>
+  return (
+    <View style={styles.container}>
 
-            {/* level buttons */}
-            <View style={styles.levelsArea}>
-                <ScrollView
-                    contentContainerStyle={styles.levelsContainer}
-                    showsVerticalScrollIndicator={false}
-                >
-                    <LongPhonicsLevelButton label="Level 1: s, a, t, p, i, n" />
-                    <LongPhonicsLevelButton label="Level 2: ck, e, h, r, m, d" />
-                    <LongPhonicsLevelButton label="Level 3: g, o, u, l, f, b" />
-                    <LongPhonicsLevelButton label="Level 4: ai, j, oa, ie, ee/or" />
-                    <LongPhonicsLevelButton label="Level 5: z, w, ng, v, oo" />
-                    <LongPhonicsLevelButton label="Level 6: y, x, ch, sh, th" />
-                    <LongPhonicsLevelButton label="Level 7: qu, ou, oi, ue, er, ar" />
-                    <LongPhonicsLevelButton label="High Frequency Words" />
-                </ScrollView>
-            </View>
+      {/* Leaf background */}
+      <View style={styles.backgroundLayer}>
+        <Image
+          source={require("../../assets/leafOverlay.jpg")}
+          style={styles.backgroundImage}
+          resizeMode="cover"
+        />
+      </View>
 
-        </View>
-    );
+      {/* Panda Phonics logo */}
+      <Image
+        source={require("../../assets/logoName.png")}
+        style={styles.logo}
+        resizeMode="contain"
+      />
+
+      {/* Home button */}
+      <Pressable
+        style={styles.homeButton}
+        onPress={() => navigation.navigate("HomeLanding")}
+        accessibilityRole="button"
+        accessibilityLabel="Home"
+      >
+        <Image
+          source={require("../../assets/Home.png")}
+          style={styles.homeImage}
+          resizeMode="contain"
+        />
+      </Pressable>
+
+      {/* Phonics level buttons */}
+      <View style={styles.levelsArea}>
+
+        <ScrollView
+          contentContainerStyle={styles.levelsContainer}
+          showsVerticalScrollIndicator={true}
+        >
+
+          <LongPhonicsLevelButton
+            label="Level 1: s, a, t, p, i, n"
+            onPress={() => openLevel(1)}
+          />
+
+          <LongPhonicsLevelButton
+            label="Level 2: ck, e, h, r, m, d"
+            onPress={() => openLevel(2)}
+          />
+
+          <LongPhonicsLevelButton
+            label="Level 3: g, o, u, l, f, b"
+            onPress={() => openLevel(3)}
+          />
+
+          <LongPhonicsLevelButton
+            label="Level 4: ai, j, oa, ie, ee/or"
+            onPress={() => openLevel(4)}
+          />
+
+          <LongPhonicsLevelButton
+            label="Level 5: z, w, ng, v, oo"
+            onPress={() => openLevel(5)}
+          />
+
+          <LongPhonicsLevelButton
+            label="Level 6: y, x, ch, sh, th"
+            onPress={() => openLevel(6)}
+          />
+
+          <LongPhonicsLevelButton
+            label="Level 7: qu, ou, oi, ue, er, ar"
+            onPress={() => openLevel(7)}
+          />
+
+          <LongPhonicsLevelButton
+            label="High Frequency Words"
+            onPress={() =>
+              navigation.navigate("HighFrequency", { userId })
+            }
+          />
+
+        </ScrollView>
+
+      </View>
+
+    </View>
+  );
 }
 
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: "#A5F7F1",
-    },
-
-    backgroundLayer: {
-        position: "absolute",
-        top: 0,
-        left: 0,
-        right: 0,
-        bottom: 0,
-    },
-
-    backgroundImage: {
-        width: "100%",
-        height: "100%",
-        opacity: 0.12,
-    },
-
-    logo: {
-        position: "absolute",
-        top: 25,
-        left: 40,
-        width: 190,
-        height: 70,
-    },
-
-    homeButton: {
-        position: "absolute",
-        top: 25,
-        right: 40,
-        width: 70,
-        height: 70,
-        alignItems: "center",
-        justifyContent: "center",
-        zIndex: 10,
-    },
-
-    homeIcon: {
-        fontSize: 38,
-    },
-
-    levelsArea: {
-        flex: 1,
-        marginTop: 100,
-    },
-
-    levelsContainer: {
-        alignItems: "center",
-        paddingTop: 15,
-        paddingBottom: 30,
-        gap: 15,
-    },
-});

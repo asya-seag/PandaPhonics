@@ -1,0 +1,143 @@
+{
+  "id": 3,
+  "title": "Level 3",
+  "sounds": ["g", "o", "u", "l", "f", "b"],
+  "words": [
+    {
+      "text": "dog",
+      "segments": ["d", "o", "g"]
+    },
+    {
+      "text": "log",
+      "segments": ["l", "o", "g"]
+    },
+    {
+      "text": "fog",
+      "segments": ["f", "o", "g"]
+    },
+    {
+      "text": "bog",
+      "segments": ["b", "o", "g"]
+    },
+    {
+      "text": "got",
+      "segments": ["g", "o", "t"]
+    },
+    {
+      "text": "pot",
+      "segments": ["p", "o", "t"]
+    },
+    {
+      "text": "top",
+      "segments": ["t", "o", "p"]
+    },
+    {
+      "text": "hop",
+      "segments": ["h", "o", "p"]
+    },
+    {
+      "text": "hot",
+      "segments": ["h", "o", "t"]
+    },
+    {
+      "text": "lot",
+      "segments": ["l", "o", "t"]
+    },
+    {
+      "text": "sun",
+      "segments": ["s", "u", "n"]
+    },
+    {
+      "text": "fun",
+      "segments": ["f", "u", "n"]
+    },
+    {
+      "text": "run",
+      "segments": ["r", "u", "n"]
+    },
+    {
+      "text": "bun",
+      "segments": ["b", "u", "n"]
+    },
+    {
+      "text": "bug",
+      "segments": ["b", "u", "g"]
+    },
+    {
+      "text": "hug",
+      "segments": ["h", "u", "g"]
+    },
+    {
+      "text": "mug",
+      "segments": ["m", "u", "g"]
+    },
+    {
+      "text": "rug",
+      "segments": ["r", "u", "g"]
+    },
+    {
+      "text": "mud",
+      "segments": ["m", "u", "d"]
+    },
+    {
+      "text": "bud",
+      "segments": ["b", "u", "d"]
+    },
+    {
+      "text": "bus",
+      "segments": ["b", "u", "s"]
+    },
+    {
+      "text": "big",
+      "segments": ["b", "i", "g"]
+    },
+    {
+      "text": "dig",
+      "segments": ["d", "i", "g"]
+    },
+    {
+      "text": "fig",
+      "segments": ["f", "i", "g"]
+    },
+    {
+      "text": "pig",
+      "segments": ["p", "i", "g"]
+    },
+    {
+      "text": "bin",
+      "segments": ["b", "i", "n"]
+    },
+    {
+      "text": "fin",
+      "segments": ["f", "i", "n"]
+    },
+    {
+      "text": "lip",
+      "segments": ["l", "i", "p"]
+    },
+    {
+      "text": "lid",
+      "segments": ["l", "i", "d"]
+    },
+    {
+      "text": "back",
+      "segments": ["b", "a", "ck"]
+    },
+    {
+      "text": "duck",
+      "segments": ["d", "u", "ck"]
+    },
+    {
+      "text": "lock",
+      "segments": ["l", "o", "ck"]
+    },
+    {
+      "text": "sock",
+      "segments": ["s", "o", "ck"]
+    },
+    {
+      "text": "frog",
+      "segments": ["f", "r", "o", "g"]
+    }
+  ]
+}

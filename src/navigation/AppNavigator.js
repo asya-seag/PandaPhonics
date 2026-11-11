@@ -5,6 +5,7 @@ import HomeLanding from "../screens/HomeLanding";
 import PhonicsLevels from "../screens/PhonicsLevels";
 import PhonicsPractice from "../screens/PhonicsPractice";
 import Settings from "../screens/Settings";
+import HighFrequency from "../screens/HighFrequency";
 
 const Stack = createNativeStackNavigator();
 
@@ -12,7 +13,7 @@ export default function AppNavigator() {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName="PhonicsLevels"
+        initialRouteName="HomeLanding"
         screenOptions={{
           headerShown: false,
         }}
@@ -35,6 +36,10 @@ export default function AppNavigator() {
         <Stack.Screen
           name="Settings"
           component={Settings}
+        />
+        <Stack.Screen
+          name="HighFrequency"
+          component={HighFrequency}
         />
       </Stack.Navigator>
     </NavigationContainer>

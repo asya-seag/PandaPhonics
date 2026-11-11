@@ -1,0 +1,115 @@
+{
+  "id": 5,
+  "title": "Level 5",
+  "sounds": ["z", "w", "ng", "v", "oo"],
+  "words": [
+    {
+      "text": "zip",
+      "segments": ["z", "i", "p"]
+    },
+    {
+      "text": "zap",
+      "segments": ["z", "a", "p"]
+    },
+    {
+      "text": "zig",
+      "segments": ["z", "i", "g"]
+    },
+    {
+      "text": "zoo",
+      "segments": ["z", "oo"]
+    },
+    {
+      "text": "wag",
+      "segments": ["w", "a", "g"]
+    },
+    {
+      "text": "web",
+      "segments": ["w", "e", "b"]
+    },
+    {
+      "text": "wet",
+      "segments": ["w", "e", "t"]
+    },
+    {
+      "text": "win",
+      "segments": ["w", "i", "n"]
+    },
+    {
+      "text": "wig",
+      "segments": ["w", "i", "g"]
+    },
+    {
+      "text": "wing",
+      "segments": ["w", "i", "ng"]
+    },
+    {
+      "text": "ring",
+      "segments": ["r", "i", "ng"]
+    },
+    {
+      "text": "sing",
+      "segments": ["s", "i", "ng"]
+    },
+    {
+      "text": "long",
+      "segments": ["l", "o", "ng"]
+    },
+    {
+      "text": "song",
+      "segments": ["s", "o", "ng"]
+    },
+    {
+      "text": "bang",
+      "segments": ["b", "a", "ng"]
+    },
+    {
+      "text": "hang",
+      "segments": ["h", "a", "ng"]
+    },
+    {
+      "text": "van",
+      "segments": ["v", "a", "n"]
+    },
+    {
+      "text": "vet",
+      "segments": ["v", "e", "t"]
+    },
+    {
+      "text": "vat",
+      "segments": ["v", "a", "t"]
+    },
+    {
+      "text": "moon",
+      "segments": ["m", "oo", "n"]
+    },
+    {
+      "text": "soon",
+      "segments": ["s", "oo", "n"]
+    },
+    {
+      "text": "food",
+      "segments": ["f", "oo", "d"]
+    },
+    {
+      "text": "boot",
+      "segments": ["b", "oo", "t"]
+    },
+    {
+      "text": "root",
+      "segments": ["r", "oo", "t"]
+    },
+    {
+      "text": "pool",
+      "segments": ["p", "oo", "l"]
+    },
+    {
+      "text": "tool",
+      "segments": ["t", "oo", "l"]
+    },
+    {
+      "text": "room",
+      "segments": ["r", "oo", "m"]
+    }
+  ]
+}

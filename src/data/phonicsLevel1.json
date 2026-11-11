@@ -1,0 +1,115 @@
+{
+  "id": 1,
+  "title": "Level 1",
+  "sounds": ["s", "a", "t", "p", "i", "n"],
+  "words": [
+    {
+      "text": "sat",
+      "segments": ["s", "a", "t"]
+    },
+    {
+      "text": "sit",
+      "segments": ["s", "i", "t"]
+    },
+    {
+      "text": "sip",
+      "segments": ["s", "i", "p"]
+    },
+    {
+      "text": "sap",
+      "segments": ["s", "a", "p"]
+    },
+    {
+      "text": "pin",
+      "segments": ["p", "i", "n"]
+    },
+    {
+      "text": "pan",
+      "segments": ["p", "a", "n"]
+    },
+    {
+      "text": "pat",
+      "segments": ["p", "a", "t"]
+    },
+    {
+      "text": "pit",
+      "segments": ["p", "i", "t"]
+    },
+    {
+      "text": "tap",
+      "segments": ["t", "a", "p"]
+    },
+    {
+      "text": "tan",
+      "segments": ["t", "a", "n"]
+    },
+    {
+      "text": "tin",
+      "segments": ["t", "i", "n"]
+    },
+    {
+      "text": "tip",
+      "segments": ["t", "i", "p"]
+    },
+    {
+      "text": "nap",
+      "segments": ["n", "a", "p"]
+    },
+    {
+      "text": "nip",
+      "segments": ["n", "i", "p"]
+    },
+    {
+      "text": "ant",
+      "segments": ["a", "n", "t"]
+    },
+    {
+      "text": "snap",
+      "segments": ["s", "n", "a", "p"]
+    },
+    {
+      "text": "snip",
+      "segments": ["s", "n", "i", "p"]
+    },
+    {
+      "text": "spin",
+      "segments": ["s", "p", "i", "n"]
+    },
+    {
+      "text": "span",
+      "segments": ["s", "p", "a", "n"]
+    },
+    {
+      "text": "spit",
+      "segments": ["s", "p", "i", "t"]
+    },
+    {
+      "text": "pant",
+      "segments": ["p", "a", "n", "t"]
+    },
+    {
+      "text": "taps",
+      "segments": ["t", "a", "p", "s"]
+    },
+    {
+      "text": "pins",
+      "segments": ["p", "i", "n", "s"]
+    },
+    {
+      "text": "pats",
+      "segments": ["p", "a", "t", "s"]
+    },
+    {
+      "text": "naps",
+      "segments": ["n", "a", "p", "s"]
+    },
+    {
+      "text": "sits",
+      "segments": ["s", "i", "t", "s"]
+    },
+    {
+      "text": "sips",
+      "segments": ["s", "i", "p", "s"]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": 6,
+  "title": "Level 6",
+  "sounds": ["y", "x", "ch", "sh", "th"],
+  "words": [
+    {
+      "text": "yes",
+      "segments": ["y", "e", "s"]
+    },
+    {
+      "text": "yet",
+      "segments": ["y", "e", "t"]
+    },
+    {
+      "text": "yap",
+      "segments": ["y", "a", "p"]
+    },
+    {
+      "text": "yam",
+      "segments": ["y", "a", "m"]
+    },
+    {
+      "text": "box",
+      "segments": ["b", "o", "x"]
+    },
+    {
+      "text": "fox",
+      "segments": ["f", "o", "x"]
+    },
+    {
+      "text": "six",
+      "segments": ["s", "i", "x"]
+    },
+    {
+      "text": "mix",
+      "segments": ["m", "i", "x"]
+    },
+    {
+      "text": "fix",
+      "segments": ["f", "i", "x"]
+    },
+    {
+      "text": "wax",
+      "segments": ["w", "a", "x"]
+    },
+    {
+      "text": "tax",
+      "segments": ["t", "a", "x"]
+    },
+    {
+      "text": "chip",
+      "segments": ["ch", "i", "p"]
+    },
+    {
+      "text": "chin",
+      "segments": ["ch", "i", "n"]
+    },
+    {
+      "text": "chat",
+      "segments": ["ch", "a", "t"]
+    },
+    {
+      "text": "chop",
+      "segments": ["ch", "o", "p"]
+    },
+    {
+      "text": "chug",
+      "segments": ["ch", "u", "g"]
+    },
+    {
+      "text": "much",
+      "segments": ["m", "u", "ch"]
+    },
+    {
+      "text": "such",
+      "segments": ["s", "u", "ch"]
+    },
+    {
+      "text": "ship",
+      "segments": ["sh", "i", "p"]
+    },
+    {
+      "text": "shop",
+      "segments": ["sh", "o", "p"]
+    },
+    {
+      "text": "shut",
+      "segments": ["sh", "u", "t"]
+    },
+    {
+      "text": "shed",
+      "segments": ["sh", "e", "d"]
+    },
+    {
+      "text": "fish",
+      "segments": ["f", "i", "sh"]
+    },
+    {
+      "text": "dish",
+      "segments": ["d", "i", "sh"]
+    },
+    {
+      "text": "wish",
+      "segments": ["w", "i", "sh"]
+    },
+    {
+      "text": "thin",
+      "segments": ["th", "i", "n"]
+    },
+    {
+      "text": "thud",
+      "segments": ["th", "u", "d"]
+    },
+    {
+      "text": "moth",
+      "segments": ["m", "o", "th"]
+    },
+    {
+      "text": "bath",
+      "segments": ["b", "a", "th"]
+    }
+  ]
+}

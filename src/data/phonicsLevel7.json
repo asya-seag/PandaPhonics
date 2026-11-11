@@ -1,0 +1,127 @@
+{
+  "id": 7,
+  "title": "Level 7",
+  "sounds": ["qu", "ou", "oi", "ue", "er", "ar"],
+  "words": [
+    {
+      "text": "quit",
+      "segments": ["qu", "i", "t"]
+    },
+    {
+      "text": "quiz",
+      "segments": ["qu", "i", "z"]
+    },
+    {
+      "text": "quill",
+      "segments": ["qu", "i", "l", "l"]
+    },
+    {
+      "text": "quick",
+      "segments": ["qu", "i", "ck"]
+    },
+    {
+      "text": "quack",
+      "segments": ["qu", "a", "ck"]
+    },
+    {
+      "text": "quash",
+      "segments": ["qu", "a", "sh"]
+    },
+    {
+      "text": "out",
+      "segments": ["ou", "t"]
+    },
+    {
+      "text": "loud",
+      "segments": ["l", "ou", "d"]
+    },
+    {
+      "text": "pout",
+      "segments": ["p", "ou", "t"]
+    },
+    {
+      "text": "shout",
+      "segments": ["sh", "ou", "t"]
+    },
+    {
+      "text": "mouth",
+      "segments": ["m", "ou", "th"]
+    },
+    {
+      "text": "round",
+      "segments": ["r", "ou", "n", "d"]
+    },
+    {
+      "text": "oil",
+      "segments": ["oi", "l"]
+    },
+    {
+      "text": "boil",
+      "segments": ["b", "oi", "l"]
+    },
+    {
+      "text": "soil",
+      "segments": ["s", "oi", "l"]
+    },
+    {
+      "text": "foil",
+      "segments": ["f", "oi", "l"]
+    },
+    {
+      "text": "coin",
+      "segments": ["c", "oi", "n"]
+    },
+    {
+      "text": "join",
+      "segments": ["j", "oi", "n"]
+    },
+    {
+      "text": "blue",
+      "segments": ["b", "l", "ue"]
+    },
+    {
+      "text": "glue",
+      "segments": ["g", "l", "ue"]
+    },
+    {
+      "text": "clue",
+      "segments": ["c", "l", "ue"]
+    },
+    {
+      "text": "true",
+      "segments": ["t", "r", "ue"]
+    },
+    {
+      "text": "flue",
+      "segments": ["f", "l", "ue"]
+    },
+    {
+      "text": "her",
+      "segments": ["h", "er"]
+    },
+    {
+      "text": "fern",
+      "segments": ["f", "er", "n"]
+    },
+    {
+      "text": "term",
+      "segments": ["t", "er", "m"]
+    },
+    {
+      "text": "farm",
+      "segments": ["f", "ar", "m"]
+    },
+    {
+      "text": "arm",
+      "segments": ["ar", "m"]
+    },
+    {
+      "text": "hard",
+      "segments": ["h", "ar", "d"]
+    },
+    {
+      "text": "park",
+      "segments": ["p", "ar", "k"]
+    }
+  ]
+}

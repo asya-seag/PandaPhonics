@@ -1,0 +1,127 @@
+{
+  "id": 2,
+  "title": "Level 2",
+  "sounds": ["ck", "e", "h", "r", "m", "d"],
+  "words": [
+    {
+      "text": "hen",
+      "segments": ["h", "e", "n"]
+    },
+    {
+      "text": "hem",
+      "segments": ["h", "e", "m"]
+    },
+    {
+      "text": "red",
+      "segments": ["r", "e", "d"]
+    },
+    {
+      "text": "ram",
+      "segments": ["r", "a", "m"]
+    },
+    {
+      "text": "ran",
+      "segments": ["r", "a", "n"]
+    },
+    {
+      "text": "rat",
+      "segments": ["r", "a", "t"]
+    },
+    {
+      "text": "rim",
+      "segments": ["r", "i", "m"]
+    },
+    {
+      "text": "rip",
+      "segments": ["r", "i", "p"]
+    },
+    {
+      "text": "rid",
+      "segments": ["r", "i", "d"]
+    },
+    {
+      "text": "mad",
+      "segments": ["m", "a", "d"]
+    },
+    {
+      "text": "man",
+      "segments": ["m", "a", "n"]
+    },
+    {
+      "text": "mat",
+      "segments": ["m", "a", "t"]
+    },
+    {
+      "text": "map",
+      "segments": ["m", "a", "p"]
+    },
+    {
+      "text": "men",
+      "segments": ["m", "e", "n"]
+    },
+    {
+      "text": "met",
+      "segments": ["m", "e", "t"]
+    },
+    {
+      "text": "mid",
+      "segments": ["m", "i", "d"]
+    },
+    {
+      "text": "dim",
+      "segments": ["d", "i", "m"]
+    },
+    {
+      "text": "dip",
+      "segments": ["d", "i", "p"]
+    },
+    {
+      "text": "did",
+      "segments": ["d", "i", "d"]
+    },
+    {
+      "text": "den",
+      "segments": ["d", "e", "n"]
+    },
+    {
+      "text": "dad",
+      "segments": ["d", "a", "d"]
+    },
+    {
+      "text": "sad",
+      "segments": ["s", "a", "d"]
+    },
+    {
+      "text": "set",
+      "segments": ["s", "e", "t"]
+    },
+    {
+      "text": "ten",
+      "segments": ["t", "e", "n"]
+    },
+    {
+      "text": "pen",
+      "segments": ["p", "e", "n"]
+    },
+    {
+      "text": "pet",
+      "segments": ["p", "e", "t"]
+    },
+    {
+      "text": "neck",
+      "segments": ["n", "e", "ck"]
+    },
+    {
+      "text": "pick",
+      "segments": ["p", "i", "ck"]
+    },
+    {
+      "text": "sick",
+      "segments": ["s", "i", "ck"]
+    },
+    {
+      "text": "sand",
+      "segments": ["s", "a", "n", "d"]
+    }
+  ]
+}
