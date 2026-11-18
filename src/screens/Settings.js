@@ -137,7 +137,6 @@ export default function Settings({ navigation }) {
     return (
         <View style={styles.container}>
 
-            {/* Leaf background */}
             <View style={styles.backgroundLayer}>
                 <Image
                     source={require("../../assets/leafOverlay.jpg")}
@@ -146,14 +145,13 @@ export default function Settings({ navigation }) {
                 />
             </View>
 
-            {/* Panda logo */}
             <Image
                 source={require("../../assets/logoName.png")}
                 style={styles.logo}
                 resizeMode="contain"
             />
 
-            {/* Home button */}
+
             <Pressable
                 style={styles.homeButton}
                 onPress={() => navigation.navigate("HomeLanding")}
@@ -165,7 +163,6 @@ export default function Settings({ navigation }) {
                 />
             </Pressable>
 
-            {/* Settings buttons */}
             <View style={styles.settingsArea}>
                 <ScrollView
                     contentContainerStyle={styles.settingsContainer}
@@ -176,9 +173,7 @@ export default function Settings({ navigation }) {
                         onPress={handleOverlayColour}
                     />
                     <LongPhonicsLevelButton label="Remove user profile" onPress={handleRemoveUser} />
-                    <LongPhonicsLevelButton label="Card size" />
                     <LongPhonicsLevelButton label="Haptic feedback" />
-                    <LongPhonicsLevelButton label="Background texture" />
                     
                 </ScrollView>
             </View>

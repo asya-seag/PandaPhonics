@@ -10,6 +10,7 @@ const USERS_KEY = "@pandaPhonics/users";
 const SESSION_SIZE = 20;
 const ALL_WORDS = highFrequencyData.words;
 
+{/* function to get ids of words that have been covered by user in prev sessions*/}
 function getCoveredIds(user) {
     const savedIds = user.coveredHighFrequencyWordIds ?? [];
 
@@ -22,7 +23,7 @@ function getCoveredIds(user) {
     return [...new Set(savedIds.filter((id) => validIds.has(id)))];
 }
 
-// Read and validate saved profiles in one place.
+{/* funciton to read and validate saved user profiles*/}
 async function loadUsers() {
     const saved = await AsyncStorage.getItem(USERS_KEY);
     const users = saved ? JSON.parse(saved) : [];
@@ -34,6 +35,7 @@ async function loadUsers() {
     return users;
 }
 
+{/* function to fetch user profile*/}
 function findUser(users, userId) {
     const user = users.find((profile) => profile.id === userId);
 
@@ -46,12 +48,13 @@ function findUser(users, userId) {
     return user;
 }
 
+{/* function to load user information*/}
 async function loadUser(userId) {
     const users = await loadUsers();
     return findUser(users, userId);
 }
 
-// Reload profiles before saving so other saved profile fields are preserved.
+{/* function reloding user profiles before saving so other saved profile fields are preserved*/}
 async function saveCoveredWord(userId, wordId) {
     const users = await loadUsers();
     const user = findUser(users, userId);

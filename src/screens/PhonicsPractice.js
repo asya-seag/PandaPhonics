@@ -90,7 +90,7 @@ export default function PhonicsPractice({ navigation, route, }) {
       ]}
     >
 
-      {/* Home and Settings - top left */}
+      
       <View style={styles.topLeftButtons}>
 
         <Pressable
@@ -117,7 +117,7 @@ export default function PhonicsPractice({ navigation, route, }) {
 
       </View>
 
-      {/* Panda buttons - top right */}
+
       <View style={styles.pandaButtons}>
 
         <Text style={styles.progressText}>
@@ -152,10 +152,10 @@ export default function PhonicsPractice({ navigation, route, }) {
 
       </View>
 
-      {/* Main practice area */}
+    
       <View style={styles.practiceArea}>
 
-        {/* Cards and poppers */}
+      
         <View
           style={[
             styles.cardsRow,
