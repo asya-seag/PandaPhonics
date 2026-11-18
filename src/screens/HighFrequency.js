@@ -4,6 +4,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import styles from "./HighFrequency.styles";
 import highFrequencyData from "../data/highFrequencyWords.json";
 import useOverlayColour from "../hooks/useOverlayColour";
+import * as Speech from "expo-speech";
 
 const USERS_KEY = "@pandaPhonics/users";
 const SESSION_SIZE = 20;
@@ -154,10 +155,23 @@ export default function HighFrequency({ navigation, route }) {
         navigation.navigate("PhonicsLevels", { userId });
     };
 
-    const playWordAudio = () => {
-        if (!currentWord) return;
+    const playWordAudio = async () =>  {
+        if (!currentWord || !practising) return;
 
-        // Text-to-speech API functionality will go here.
+        try {
+            await Speech.stop();
+
+            Speech.speak(currentWord.text, {
+                language: "en-GB",
+                rate: 0.8,
+                pitch: 1,
+                onError: () => {
+                    Alert.alert("Unable to play word", "Please try again.");
+                },
+            });
+        } catch {
+            Alert.alert("Unable to play word", "Please try again.");
+        }
     };
 
     const advanceWord = () => {

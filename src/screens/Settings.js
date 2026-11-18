@@ -175,10 +175,11 @@ export default function Settings({ navigation }) {
                         label="Overlay colour"
                         onPress={handleOverlayColour}
                     />
+                    <LongPhonicsLevelButton label="Remove user profile" onPress={handleRemoveUser} />
                     <LongPhonicsLevelButton label="Card size" />
                     <LongPhonicsLevelButton label="Haptic feedback" />
                     <LongPhonicsLevelButton label="Background texture" />
-                    <LongPhonicsLevelButton label="Remove user profile" onPress={handleRemoveUser} />
+                    
                 </ScrollView>
             </View>
 

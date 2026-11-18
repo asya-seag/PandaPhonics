@@ -1,8 +1,28 @@
 {
   "id": 2,
   "title": "Level 2",
-  "sounds": ["ck", "e", "h", "r", "m", "d"],
+  "sounds": ["c", "k", "ck", "e", "h", "r", "m", "d"],
   "words": [
+    {
+      "text": "cat",
+      "segments": ["c", "a", "t"]
+    },
+    {
+      "text": "can",
+      "segments": ["c", "a", "n"]
+    },
+    {
+      "text": "cap",
+      "segments": ["c", "a", "p"]
+    },
+    {
+      "text": "kit",
+      "segments": ["k", "i", "t"]
+    },
+    {
+      "text": "kid",
+      "segments": ["k", "i", "d"]
+    },
     {
       "text": "hen",
       "segments": ["h", "e", "n"]

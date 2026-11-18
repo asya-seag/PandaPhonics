@@ -16,7 +16,6 @@ export default function PhonicsLevels({ navigation, route }) {
   return (
     <View style={styles.container}>
 
-      {/* Leaf background */}
       <View style={styles.backgroundLayer}>
         <Image
           source={require("../../assets/leafOverlay.jpg")}
@@ -25,14 +24,12 @@ export default function PhonicsLevels({ navigation, route }) {
         />
       </View>
 
-      {/* Panda Phonics logo */}
       <Image
         source={require("../../assets/logoName.png")}
         style={styles.logo}
         resizeMode="contain"
       />
 
-      {/* Home button */}
       <Pressable
         style={styles.homeButton}
         onPress={() => navigation.navigate("HomeLanding")}
@@ -46,7 +43,6 @@ export default function PhonicsLevels({ navigation, route }) {
         />
       </Pressable>
 
-      {/* Phonics level buttons */}
       <View style={styles.levelsArea}>
 
         <ScrollView
@@ -60,7 +56,7 @@ export default function PhonicsLevels({ navigation, route }) {
           />
 
           <LongPhonicsLevelButton
-            label="Level 2: ck, e, h, r, m, d"
+            label="Level 2: c/k, e, h, r, m, d"
             onPress={() => openLevel(2)}
           />
 
