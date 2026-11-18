@@ -161,7 +161,7 @@ export default function HighFrequency({ navigation, route }) {
         try {
             await Speech.stop();
 
-            Speech.speak(currentWord.text, {
+            Speech.speak(currentWord.speechText ?? currentWord.text, {
                 language: "en-GB",
                 rate: 0.8,
                 pitch: 1,
@@ -314,7 +314,6 @@ export default function HighFrequency({ navigation, route }) {
             ]}
         >
             <View style={styles.header}>
-                {/* Home and Settings */}
                 <View style={styles.navigationButtons}>
                     <Pressable
                         style={styles.headerButton}
@@ -347,7 +346,6 @@ export default function HighFrequency({ navigation, route }) {
                     </Pressable>
                 </View>
 
-                {/* Word count and panda actions */}
                 {practising && (
                     <View style={styles.pandaButtons}>
                         <Text style={styles.progressText}>
@@ -411,7 +409,6 @@ export default function HighFrequency({ navigation, route }) {
                 )}
             </View>
 
-            {/* Main area — no scrolling */}
             <View style={styles.practiceArea}>
                 {content}
             </View>
