@@ -173,7 +173,6 @@ export default function Settings({ navigation }) {
                         onPress={handleOverlayColour}
                     />
                     <LongPhonicsLevelButton label="Remove user profile" onPress={handleRemoveUser} />
-                    <LongPhonicsLevelButton label="Haptic feedback" />
                     
                 </ScrollView>
             </View>
