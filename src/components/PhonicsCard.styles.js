@@ -24,6 +24,7 @@ export default StyleSheet.create({
 
   soundText: {
     color: "#71320F",
+    fontFamily: "Lexend_400Regular",
     fontWeight: "700",
     textAlign: "center",
     includeFontPadding: false,

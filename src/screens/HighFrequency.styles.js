@@ -117,6 +117,7 @@ export default StyleSheet.create({
 
     wordText: {
         width: "100%",
+        fontFamily: "Lexend_400Regular",
         fontSize: 110,
         textAlign: "center",
         color: "#71320F",
