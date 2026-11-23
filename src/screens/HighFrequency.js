@@ -372,15 +372,6 @@ export default function HighFrequency({ navigation, route }) {
                                 style={styles.pandaImage}
                                 resizeMode="contain"
                             />
-
-                            <Text
-                                style={[
-                                    styles.actionBadge,
-                                    styles.skipBadge,
-                                ]}
-                            >
-                                ✕
-                            </Text>
                         </Pressable>
 
                         <Pressable
@@ -398,15 +389,6 @@ export default function HighFrequency({ navigation, route }) {
                                 style={styles.pandaImage}
                                 resizeMode="contain"
                             />
-
-                            <Text
-                                style={[
-                                    styles.actionBadge,
-                                    styles.coveredBadge,
-                                ]}
-                            >
-                                ✓
-                            </Text>
                         </Pressable>
                     </View>
                 )}

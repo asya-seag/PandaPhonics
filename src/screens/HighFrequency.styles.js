@@ -43,15 +43,15 @@ export default StyleSheet.create({
     },
 
     pandaButton: {
-        width: 64,
-        height: 74,
+        width: 78,
+        height: 78,
         alignItems: "center",
         justifyContent: "center",
     },
 
     pandaImage: {
-        width: 64,
-        height: 64,
+        width: 78,
+        height: 78,
     },
 
     progressText: {
@@ -59,29 +59,6 @@ export default StyleSheet.create({
         lineHeight: 24,
         textAlign: "center",
         color: "#71320F",
-    },
-
-    actionBadge: {
-        position: "absolute",
-        right: 0,
-        bottom: 0,
-        width: 28,
-        height: 28,
-        borderRadius: 14,
-        overflow: "hidden",
-        textAlign: "center",
-        lineHeight: 28,
-        fontSize: 21,
-        fontWeight: "700",
-        color: "#FFFFFF",
-    },
-
-    skipBadge: {
-        backgroundColor: "#A63C32",
-    },
-
-    coveredBadge: {
-        backgroundColor: "#35734C",
     },
 
     disabledButton: {
